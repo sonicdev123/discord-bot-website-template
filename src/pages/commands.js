@@ -14,10 +14,10 @@ export default function Commands() {
       animate={{ opacity: 1 }}
     >
       <Head>
-        <title>Commands | BOT</title>
+        <title>Commands | Sonic MTA</title>
         <meta
           name="description"
-          content="Commands page | Minimal and awesome discord bot website created with ❤️ using NextJS"
+          content="Commands page | Welcome"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -33,22 +33,18 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
+              Help ⚙️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+dashboard</kbd> -{" "}
+                  <span className="p-color">All Commands</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+help</kbd> -{" "}
+                  <span className="p-color">Public Commands</span>
                 </li>
               </ul>
             </div>
@@ -56,22 +52,26 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
+              Settings 🐛
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+set-ip <mta-ip></kbd> -{" "}
+                  <span className="p-color">Set MTA Server</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+set-activity</kbd> -{" "}
+                  <span className="p-color">Set Status</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+set-color <hex-code></kbd> -{" "}
+                  <span className="p-color">Set Color Messages</span>
+                </li>
+                <li>
+                  <kbd>+set-logo <image-url-or-file></kbd> -{" "}
+                  <span className="p-color"Set Logo Messages (Please For More Command With Use the Command +dashboard)</span>
                 </li>
               </ul>
             </div>
@@ -79,22 +79,26 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
-              Customization 👀
+              Public 👀
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+bot-servers</kbd> -{" "}
+                  <span className="p-color">Bot Servers</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+restart</kbd> -{" "}
+                  <span className="p-color">Restarting The Bot</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+bot</kbd> -{" "}
+                  <span className="p-color">About Bot</span>
+                </li>
+                <li>
+                  <kbd>+server</kbd> -{" "}
+                  <span className="p-color">About Your Server</span>
                 </li>
               </ul>
             </div>
@@ -103,46 +107,18 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb4" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb4">
-              Gameplay 🎲
+              Voice Chat 🎲
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+join <channel-id></kbd> -{" "}
+                  <span className="p-color">Join To VC</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <input type="radio" name="accordion" id="cb5" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb5">
-              Image 🖼️
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>+disconnect</kbd> -{" "}
+                  <span className="p-color">Disconnect With Voice</span>
                 </li>
               </ul>
             </div>
